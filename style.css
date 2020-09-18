@@ -1,0 +1,73 @@
+
+/* Style the body */
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+	background-color: #0d7b67;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+.main h1 {
+	color: #a3f9f9;
+	font-size: 55px;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+}
+
+.main p {
+	font-size: 26px;
+	margin: 10px 0;
+}
+
+/* Style the main image */
+.main-image img {
+	width: 100%;
+}
+
+/* Style the sections */
+.section-block {
+	padding: 30px;
+	background-color: #eee;
+}
+
+.section-block2 {
+	padding: 30px;
+}
+
+.section-block h3 {
+	color: #0d7b67;
+}
+
+h3 {
+	color: #0d7b67;
+	border-left-style: solid;
+	border-left-width: thick;
+    border-left-color: #c00ad6;
+    padding-left: 20px;
+} 
+
+/* Style the footer */
+footer {
+	background-color: #0d7b67;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+footer p, footer ul li {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 10px;
+}
+
+ul#inline-list li {
+	display: inline;
+}
