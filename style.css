@@ -2,7 +2,7 @@
 /* Style the body */
 body {
 	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -11,6 +11,7 @@ ul {
 
 li {
 	padding-bottom: 10px;
+	font-weight: 400;
 }
 
 ul.hobbies-sublist > li {
@@ -18,7 +19,7 @@ ul.hobbies-sublist > li {
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 /* Style the header */
@@ -33,14 +34,15 @@ header {
 .main h1 {
 	color: #a3f9f9;
 	font-size: 55px;
-	font-family: Helvetica;
+	/*font-family: 'Montserrat', sans-serif;*/
 	text-transform: uppercase;
 	letter-spacing: 20px;
 }
 
 .main p {
-	font-size: 26px;
-	margin: 10px 0;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin: 0;
 }
 
 /* Style the main image */
@@ -71,7 +73,6 @@ h3 {
 } 
 
 table {
-	font-family: arial, sans-serif;
 	border-collapse: collapse;
 	width: 50%;
 	background-color: #fff;
