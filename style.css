@@ -49,7 +49,7 @@ header {
 /* Style the sections */
 .img-block {
 	float: right;
-	width: 27%;
+	width: 30%;
 	margin-right: 20px;
 	padding: 0 20px;
 }
@@ -60,6 +60,7 @@ header {
 
 .description-block {
 	width: 50%;
+	padding-bottom: 20px;
 }
 
 .section-block {
@@ -70,6 +71,10 @@ header {
 .section-block2 {
 	padding: 30px;
 	clear: both;
+}
+
+.section-block2#hobbies {
+	padding-top: 1px;
 }
 
 .section-block h3 {
@@ -94,7 +99,7 @@ table {
 td, th {
 	border: 1px solid #dddddd;
 	text-align: left;
-	padding: 8px;
+	padding: 10px 25px;
 }
 
 /* Style the footer */
