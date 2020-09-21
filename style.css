@@ -25,7 +25,7 @@ a {
 /* Style the header */
 header {
 	background-color: #0d7b67;
-	padding: 30px;
+	padding: 20px;
 	text-align: center;
 	font-size: 35px;
 	color: white;
@@ -33,24 +33,35 @@ header {
 
 .main h1 {
 	color: #a3f9f9;
-	font-size: 55px;
+	font-size: 50px;
 	/*font-family: 'Montserrat', sans-serif;*/
 	text-transform: uppercase;
 	letter-spacing: 20px;
+	margin-bottom: 7px;
 }
 
 .main p {
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 3px;
-	margin: 0;
-}
-
-/* Style the main image */
-.main-image img {
-	width: 100%;
+	margin-bottom: 10px;
 }
 
 /* Style the sections */
+.img-block {
+	float: right;
+	width: 27%;
+	margin-right: 20px;
+	padding: 0 20px;
+}
+
+.img-block img {
+	width: 100%;
+}
+
+.description-block {
+	width: 50%;
+}
+
 .section-block {
 	padding: 30px;
 	background-color: #eee;
@@ -58,6 +69,7 @@ header {
 
 .section-block2 {
 	padding: 30px;
+	clear: both;
 }
 
 .section-block h3 {
@@ -74,7 +86,7 @@ h3 {
 
 table {
 	border-collapse: collapse;
-	width: 50%;
+	width: 100%;
 	background-color: #fff;
 	text-align: center;
 }
